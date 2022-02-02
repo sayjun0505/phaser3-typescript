@@ -1,0 +1,146 @@
+{
+  "preload": {
+    "files": [
+      {
+        "type": "bitmapFont",
+        "key": "font",
+        "textureURL": "./assets/font/superMarioLand.png",
+        "fontDataURL": "./assets/font/superMarioLand.fnt"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level1",
+        "url": "./assets/maps/level1.json"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level1Room1",
+        "url": "./assets/maps/level1Room1.json"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level1Room2",
+        "url": "./assets/maps/level1Room2.json"
+      },
+      {
+        "type": "image",
+        "key": "tiles",
+        "url": "./assets/tiles/tiles.png"
+      },
+      {
+        "type": "json",
+        "key": "animationJSON",
+        "url": "./assets/animations/animations.json"
+      },
+      {
+        "type": "spritesheet",
+        "key": "mario",
+        "url": "./assets/sprites/mario.png",
+        "frameConfig": {
+          "frameWidth": 16,
+          "frameHeight": 16
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "box",
+        "url": "./assets/sprites/box.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "brick",
+        "url": "./assets/sprites/brick.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "rotatingCoin",
+        "url": "./assets/sprites/rotatingCoin.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "coin",
+        "url": "./assets/sprites/coin.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "goomba",
+        "url": "./assets/sprites/goomba.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "image",
+        "key": "platform",
+        "url": "./assets/images/platform.png"
+      },
+      {
+        "type": "image",
+        "key": "title",
+        "url": "./assets/images/title.png"
+      },
+      {
+        "type": "spritesheet",
+        "key": "coin2",
+        "url": "./assets/collectibles/coin2.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "flower",
+        "url": "./assets/collectibles/flower.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "heart",
+        "url": "./assets/collectibles/heart.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "mushroom",
+        "url": "./assets/collectibles/mushroom.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "star",
+        "url": "./assets/collectibles/star.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      }
+    ]
+  }
+}

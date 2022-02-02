@@ -1,0 +1,9 @@
+export const CONST = {
+  BACKGROUND_COLOR: 0x2d1edf,
+  CELLSIZE: 6,
+  GRID_WIDTH: 100,
+  GRID_HEIGHT: 100,
+  OFFSET: 0,
+  FIELD_COLOR: 0xffffff,
+  FIELD_ALPHA: 1
+};

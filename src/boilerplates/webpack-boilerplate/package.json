@@ -1,0 +1,33 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "2.0.2",
+  "description": "Webpack-Boilerplate for Phaser 3 in TypeScript",
+  "keywords": [],
+  "devDependencies": {
+    "expose-loader": "4.0.0",
+    "ts-loader": "9.3.1",
+    "typescript": "4.8.0-dev.20220730",
+    "webpack": "5.74.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.9.3"
+  },
+  "dependencies": {
+    "phaser": "3.60.0-beta.9"
+  },
+  "scripts": {
+    "dev": "webpack --mode development && webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitsensitive/phaser3-typescript.git"
+  },
+  "author": {
+    "name": "digitsensitive",
+    "email": "digit.sensitivee@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitsensitive/phaser3-typescript/issues"
+  },
+  "homepage": "https://github.com/digitsensitive/phaser3-typescript#readme"
+}

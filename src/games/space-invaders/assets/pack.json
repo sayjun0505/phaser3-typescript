@@ -1,0 +1,54 @@
+{
+  "preload": {
+    "files": [
+      {
+        "type": "bitmapFont",
+        "key": "font",
+        "textureURL": "./assets/font/font.png",
+        "fontDataURL": "./assets/font/font.fnt"
+      },
+      {
+        "type": "json",
+        "key": "animationJSON",
+        "url": "./assets/animations/animations.json"
+      },
+      {
+        "type": "image",
+        "key": "bullet",
+        "url": "./assets/sprites/bullet.png"
+      },
+      {
+        "type": "image",
+        "key": "player",
+        "url": "./assets/sprites/player.png"
+      },
+      {
+        "type": "spritesheet",
+        "key": "octopus",
+        "url": "./assets/sprites/octopus.png",
+        "frameConfig": {
+          "frameWidth": 12,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "crab",
+        "url": "./assets/sprites/crab.png",
+        "frameConfig": {
+          "frameWidth": 11,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "squid",
+        "url": "./assets/sprites/squid.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      }
+    ]
+  }
+}
